@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ПРОСТОЙ ПРИМЕР МОДАЛКИ</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <!-- Просто секция -->
+  <section class="first-section">
+    <div class="container">
+      <h1 class="first-section-title">ПРОСТОЙ ПРИМЕР МОДАЛКИ</h1>
+      <button class="modal-window-open">Открыть модалку</button>
+    </div>
+  </section>
+
+  <!-- МОдальное окно которое скрыто. Ему через JS задаем класс modal-window-active которій описан в стилях-->
+  <div class="modal-window">
+    <h2>Я модальное окно</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum necessitatibus, repellendus fugit eaque quasi
+      similique assumenda ex tenetur optio tempora vero impedit obcaecati est error adipisci, itaque, sit quae a?</p>
+    <button class="modal-window-close">Закрыть модалку</button>
+  </div>
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>
